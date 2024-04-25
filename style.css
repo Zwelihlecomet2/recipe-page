@@ -4,7 +4,21 @@
     box-sizing: border-box;
 }
 
-.image img{
-    height: 25vh;
+.container{
+    background-color: hsl(30, 54%, 90%);
+    height: 100vh;
     width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.container .container-content{
+    height: 90vh;
+    width: 25vw;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.text p{
+    margin-left: 3.5%;
 }
