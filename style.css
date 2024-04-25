@@ -1,11 +1,17 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Outfit';
+}
+
+.body{
+    background-color: hsl(30, 54%, 90%);
 }
 
 .container{
-    background-color: hsl(30, 54%, 90%);
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -13,12 +19,45 @@
 }
 
 .container .container-content{
-    height: 90vh;
-    width: 25vw;
     background-color: white;
-    border-radius: 10px;
+    height: 90%;
+    width: 35%;
+    border-radius: 15px;
+}
+
+.text{
+    margin-left: 21px;
 }
 
 .text p{
-    margin-left: 3.5%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text h2{
+    font-weight: 700;
+}
+.preps{
+    margin-left: 21px;
+    background-color: hsl(330, 100%, 98%);
+    width: 90%;
+}
+
+.preps strong{
+    color: hsl(24, 5%, 18%);
+    margin-left: 10px;
+}
+
+.preps h4{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.ingredients{
+    margin-left: 21px;
+}
+
+.ingredients h4{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
 }
