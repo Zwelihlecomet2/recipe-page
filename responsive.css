@@ -1,0 +1,15 @@
+@media (max-width:599px){
+    .container{
+        height: 200vh;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+    }
+
+    .container .container-content{
+        background-color: white;
+        height: 90%;
+        width: 55%;
+        border-radius: 15px;
+    }
+}
