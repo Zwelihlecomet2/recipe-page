@@ -1,4 +1,4 @@
-@media (max-width:1000px){
+@media (max-width:400px){
     .container{
         height: 200vh;
         width: 100vw;
@@ -11,5 +11,11 @@
         height: 90%;
         width: 55%;
         border-radius: 15px;
+    }
+
+    .preps{
+        margin-left: 21px;
+        background-color: hsl(330, 100%, 98%);
+        width: 90%;
     }
 }
