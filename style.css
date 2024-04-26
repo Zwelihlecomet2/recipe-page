@@ -49,6 +49,10 @@
     color: hsl(332, 51%, 32%);
 }
 
+.recipe-content .prep li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
 .recipe-content .ingredients h4{
     color: hsl(14, 45%, 36%);
     margin-left: 5%;
@@ -56,6 +60,10 @@
     font-weight: 800;
 }
 
+.recipe-content .ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+    font: 1.2rem;
+}
 
 .recipe-content .instructions ol{
     margin-right: 10%;
