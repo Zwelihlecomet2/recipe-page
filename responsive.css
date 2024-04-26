@@ -55,7 +55,7 @@
 
 @media (max-width: 499px){
     .recipe{
-        height: 245vh;
+        height: 248vh;
         width: 100vw;
         display: grid;
         place-items: center;
@@ -72,7 +72,7 @@
     }
 
     .recipe-content .prep{
-        height: 6%;
+        height: 8%;
     }
 
     .recipe-content .prep h4{
