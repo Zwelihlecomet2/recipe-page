@@ -80,3 +80,41 @@
     font-weight: 700;
 }
 
+.recipe-content .nutrition{
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.recipe .nutrition h4{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+.recipe-content .nutrition p{
+    font-size: small;
+}
+
+.recipe-content .nutrition .nutri-values{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nutri-values .nutri{
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrition .values{
+    display: flex;
+    flex-direction: column;
+}
+
+.nutri-values .nutri span{
+    padding: 5px 0px;
+}
+
+.nutri-values .values span{
+    padding: 5px 0px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
