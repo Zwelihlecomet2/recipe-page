@@ -11,53 +11,72 @@
     background-color: hsl(30, 54%, 90%);
 }
 
-.container{
+.recipe{
     height: 100vh;
     width: 100vw;
     display: grid;
     place-items: center;
 }
 
-.container .container-content{
+.recipe .recipe-content{
     background-color: white;
     height: 90%;
-    width: 35%;
-    border-radius: 15px;
+    width: 50%;
+    border-radius: 20px;
 }
 
-.text{
-    margin-left: 21px;
+.recipe-content img{
+    height: 10%;
+    width: 100%;
 }
 
-.text p{
-    font-size: 16px;
-    font-weight: 400;
+.recipe-content .heading{
+    margin-left: 13px;
 }
 
-.text h2{
+.recipe-content .heading h3{
+    font-weight: 800;
+}
+
+.recipe-content .prep{
+    height: 17%;
+    width: 90%;
+    background-color: hsl(330, 100%, 98%);
+    margin-left: 5%;
+}
+
+.recipe-content .prep h4{
+    color: hsl(332, 51%, 32%);
+}
+
+.recipe-content .ingredients h4{
+    color: hsl(14, 45%, 36%);
+    margin-left: 5%;
+    margin-top: 7%;
+    font-weight: 800;
+}
+
+
+.recipe-content .instructions ol{
+    margin-right: 10%;
+}
+
+.recipe-content .instructions li{
+    padding-top: 10px;
+}
+
+.recipe-content .instructions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 1rem;
+}
+
+.recipe-content .instructions h4{
+    color: hsl(14, 45%, 36%);
+    margin-left: 5%;
+    font-weight: 800;
+}
+
+.recipe-content .instructions strong{
     font-weight: 700;
 }
-.preps{
-    margin-left: 21px;
-    background-color: hsl(330, 100%, 98%);
-    width: 90%;
-}
 
-.preps strong{
-    color: hsl(24, 5%, 18%);
-    margin-left: 10px;
-}
-
-.preps h4{
-    color: hsl(332, 51%, 32%);
-    font-weight: 600;
-}
-
-.ingredients{
-    margin-left: 21px;
-}
-
-.ingredients h4{
-    color: hsl(14, 45%, 36%);
-    font-weight: 600;
-}

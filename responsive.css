@@ -1,21 +1,95 @@
-@media (max-width:400px){
-    .container{
+@media (min-width: 500px){
+
+    .recipe{
         height: 200vh;
         width: 100vw;
         display: grid;
         place-items: center;
     }
 
-    .container .container-content{
-        background-color: white;
+    .recipe .recipe-content{
         height: 90%;
-        width: 55%;
-        border-radius: 15px;
+        width: 25%;
     }
 
-    .preps{
-        margin-left: 21px;
-        background-color: hsl(330, 100%, 98%);
-        width: 90%;
+    .recipe .recipe-content img{
+        height: 20%;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .recipe-content .prep{
+        height: 9%;
+    }
+
+    .recipe-content .heading p{
+        font-size: small;
+    }
+
+    .recipe-content .prep h4{
+        font-size: medium;
+        padding-top: 3%;
+        padding-left: 3%;
+    }
+
+    .recipe-content .ingredients h4{
+        font-size: 1.4rem;
+    }
+
+    .recipe-content .ingredients li{
+        font-size: small;
+    }
+
+    .recipe-content .instructions h4{
+        font-size: 1.4rem;
+    }
+
+    .recipe-content .instructions li{
+        font-size: small;
+    }
+}
+
+
+
+
+
+@media (max-width: 499px){
+    .recipe{
+        height: 300vh;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+    }
+
+    .recipe .recipe-content img{
+        height: 9%;
+        width: 100%;
+        /* padding: 15px; */
+    }
+
+    .recipe-content .heading p{
+        font-size: 11.05px;
+    }
+
+    .recipe-content .prep{
+        height: 10%;
+    }
+
+    .recipe-content .prep h4{
+        font-size: small;
+        padding-top: 4%;
+        padding-left: 5%;
+    }
+
+    .recipe-content .prep li{
+        font-size: small;
+    }
+
+    .recipe-content .ingredients li{
+        font-size: small;
+    }
+
+    .recipe-content .instructions li{
+        font-size: small;
     }
 }
