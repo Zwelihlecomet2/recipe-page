@@ -102,27 +102,55 @@
     font-size: small;
 }
 
-.recipe-content .nutrition .nutri-values{
+/* .recipe-content .nutrition .nutri-values{
     display: flex;
     justify-content: space-around;
+} */
+
+.nutrition{
+    text-align: center;
 }
 
-.nutri-values .nutri{
+.nutrition .calories{
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+    padding: 10px;
 }
 
-.nutrition .values{
-    display: flex;
-    flex-direction: column;
-}
-
-.nutri-values .nutri span{
-    padding: 5px 0px;
-}
-
-.nutri-values .values span{
-    padding: 5px 0px;
+.calories .cal-value span{
     color: hsl(14, 45%, 36%);
-    font-weight: 800;
+}
+
+.nutrition .carbs{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+.carbs .carb-value span{
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition .proteins{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+.proteins .prot-value span{
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition .fats{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+.fats .fat-value{
+    color: hsl(14, 45%, 36%);
 }
