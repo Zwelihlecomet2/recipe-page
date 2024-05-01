@@ -1,7 +1,7 @@
 @media (min-width: 500px){
 
     .recipe{
-        height: 250vh;
+        height: 255vh;
         width: 100vw;
         display: grid;
         place-items: center;
