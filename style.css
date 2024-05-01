@@ -102,14 +102,6 @@
     font-size: small;
 }
 
-/* .recipe-content .nutrition .nutri-values{
-    display: flex;
-    justify-content: space-around;
-} */
-
-.nutrition{
-    text-align: center;
-}
 
 .nutrition .calories{
     display: flex;
@@ -154,19 +146,6 @@
 .fats .fat-value{
     color: hsl(14, 45%, 36%);
 }
-/* .nutri-values .nutri{
-    display: flex;
-    flex-direction: column;
-}
-
-.nutrition .values{
-    display: flex;
-    flex-direction: column;
-}
-
-.nutri-values .nutri span{
-    padding: 5px 0px;
-} */
 
 .nutri-values span{
     font-weight: 600;
